@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Helvetica Neue", Avenir, Vernada, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Vernada, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
@@ -65,7 +65,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Helvetica Neue", Avenir, Vernada, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Vernada, Helvetica, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "Helvetica Neue", Avenir, Vernada, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Vernada, Helvetica, sans-serif;
 }
 .fh5co-nav .fh5co-social {
   margin: 3px 0 0 0;
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   list-style: none;
   display: inline-block;
-  font-family: "Helvetica Neue", Avenir, Vernada, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Vernada, Helvetica, sans-serif;
 }
 .fh5co-nav ul li a {
   text-transform: uppercase;
@@ -411,7 +411,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-about,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 4em 0;
+  padding: 6em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -421,7 +421,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-about,
   #fh5co-contact,
   #fh5co-footer {
-    padding: 2em 0;
+    padding: 4em 0;
   }
 }
 
@@ -547,7 +547,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
 }
 .categories li {
-  font-family: "Helvetica Neue", Avenir, Vernada, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Vernada, Helvetica, sans-serif;
   list-style: none;
   margin-bottom: 5px;
 }
@@ -609,7 +609,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
-  font-family: "Helvetica Neue", Avenir, Vernada, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Vernada, Helvetica, sans-serif;
 }
 
 .title {
@@ -624,7 +624,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .author {
   width: 100%;
   float: left;
-  margin-bottom: 4em;
+  margin-bottom: 6em;
 }
 .author .author-inner {
   background-size: cover;
@@ -1061,7 +1061,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Helvetica Neue", Avenir, Vernada, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Vernada, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 2px;
@@ -1279,7 +1279,7 @@ blockquote p {
   color: #666666;
 }
 blockquote .person {
-  font-family: "Helvetica Neue", Avenir, Vernada, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Vernada, Helvetica, sans-serif;
   font-size: 14px;
   color: #b3b3b3;
 }
