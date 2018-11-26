@@ -499,6 +499,8 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  padding-left: 10px;
+  padding-right: 10px;    
 }
 .work .work-grid .inner {
   display: table;
@@ -509,6 +511,8 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  padding-left: 10px;
+  padding-right: 10px; 
 }
 @media screen and (max-width: 768px) {
   .work .work-grid .inner {
