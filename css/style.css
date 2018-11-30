@@ -498,7 +498,6 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s ;
-  transition: 0.3s;
 }
 .work .work-grid .inner {
   display: table;
@@ -545,13 +544,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .work:hover .desc h3 a, .work:focus .desc h3 a {
   color: #cabcab;
-}
-
-.work:hover .work-grid, .work:focus .work-grid {
-   -webkit-transition: all 0.5s linear;
-          transition: all 0.5s linear;
-  -webkit-transform: scale3d(1, 1, 1);
-          transform: scale3d(1, 1, 1);
 }
 
 .top-line {
