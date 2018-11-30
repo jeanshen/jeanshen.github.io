@@ -538,6 +538,10 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 2px;
 }
 @media screen and (max-width: 768px) {
+    
+  .work .work-grid {
+  height: 360px;
+}
   .work .work-grid .inner .desc .cat {
     color: #333333;
   }
@@ -648,6 +652,10 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 250px;
   float: left;
 }
+
+ .work .work-grid {
+  height: 360px;
+}
 @media screen and (max-width: 480px) {
   .author .author-inner {
     width: 100%;
@@ -659,6 +667,11 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   padding-left: 50px;
 }
+
+ .work .work-grid {
+  height: 280px;
+}
+
 @media screen and (max-width: 480px) {
   .author .desc {
     width: 100%;
@@ -750,8 +763,17 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-footer .fh5co-widget {
   margin-bottom: 30px;
 }
+
+ .work .work-grid {
+  height: 280px;
+}
+
 @media screen and (max-width: 768px) {
-  #fh5co-footer .fh5co-widget {
+  
+  .work .work-grid {
+  height: 360px;
+}   
+    #fh5co-footer .fh5co-widget {
     text-align: left;
   }
 }
@@ -791,6 +813,11 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-offcanvas {
     display: block;
   }
+    
+ .work .work-grid {
+  height: 360px;
+}
+
 }
 .offcanvas #fh5co-offcanvas {
   -moz-transform: translateX(0px);
