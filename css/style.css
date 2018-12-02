@@ -124,9 +124,9 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  padding: 20px 0;
+  padding: 35px 0 10px 0;
   z-index: 1;
-  background: #edebe8;
+  background: #ffffff;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -142,10 +142,10 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 20%;
 }
 .fh5co-nav .fh5co-top-menu {
-  width: 60%;
+  width: 70%;
 }
 .fh5co-nav .fh5co-top-social {
-  width: 20%;
+  width: 10%;
 }
 .fh5co-nav #fh5co-logo {
   font-size: 20px;
@@ -307,7 +307,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav ul li .form-group {
   border: 1px solid red;
   width: 100%;
-}
+}s
 
 .about-content {
   margin-bottom: 7em;
