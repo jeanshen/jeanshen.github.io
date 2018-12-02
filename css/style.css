@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: 'Lora', serif, 'Open Sans', sans-serif, Helvetica;
+  font-family: 'Lora', serif, 'Raleway, sans-serif, Helvetica;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: 'Open Sans', sans-serif, Helvetica;
+  font-family: 'Raleway', sans-serif, Helvetica;
 }
 .fh5co-nav .fh5co-social {
   margin: 3px 0 0 0;
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   list-style: none;
   display: inline-block;
-  font-family: 'Open Sans', sans-serif, Helvetica;
+  font-family: 'Raleway', sans-serif, Helvetica;
 }
 .fh5co-nav ul li a {
   text-transform: uppercase;
@@ -566,7 +566,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
 }
 .categories li {
-  font-family: 'Open Sans', sans-serif, Helvetica;
+  font-family: 'Raleway', sans-serif, Helvetica;
   list-style: none;
   margin-bottom: 5px;
 }
@@ -630,7 +630,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 18px;
   line-height: 1.5;
   color: #000;
-  font-family: 'Open Sans', sans-serif, Helvetica;
+  font-family: 'Raleway', sans-serif, Helvetica;
 }
 .fh5co-heading span {
   display: block;
@@ -638,7 +638,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
-  font-family: 'Open Sans', sans-serif, Helvetica;
+  font-family: 'Raleway' sans-serif, Helvetica;
 }
 
 
@@ -1156,7 +1156,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: 'Open Sans', sans-serif, Helvetica;
+  font-family: 'Raleway', sans-serif, Helvetica;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 2px;
@@ -1367,9 +1367,9 @@ h1, h2, h3, h4, h5, h6, figure {
   border-left: none;
 }
 .fh5co-heading blockquote p {
-  font-family: 'Open Sans', serif, Helvetica;
+  font-family: 'Raleway', serif, Helvetica;
   font-style: italic;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.5;
   color: #666666;
 }
