@@ -1357,7 +1357,7 @@ blockquote {
   padding-left: 0;
   border-left: none;
 }
-blockquote p {
+blockquote h2 {
   font-family: 'Lora', serif, Helvetica;
   font-style: italic;
   font-size: 20px;
