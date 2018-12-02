@@ -614,12 +614,14 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 .fh5co-heading h3 {
-  font-size: 18px;
+  font-size: 20px;
+  text-transform: uppercase;    
 }
 .fh5co-heading p {
   font-size: 18px;
   line-height: 1.5;
-  color: #828282;
+  color: #5a5a5a;
+  font-family: 'Open Sans', sans-serif, Helvetica;
 }
 .fh5co-heading span {
   display: block;
@@ -1341,7 +1343,7 @@ blockquote .person cite {
 }
 .role h3 {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 2px;
   margin-bottom: 20px;
 }
@@ -1350,7 +1352,7 @@ blockquote .person cite {
   margin: 0;
 }
 .role ul li {
-  font-size: 14px;
+  font-size: 16px;
   list-style: none;
   padding: 0;
   margin: 0 0 5px 0;
