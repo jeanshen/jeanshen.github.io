@@ -63,9 +63,16 @@ p {
   margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
+h1, h2, h3, h5, h6, figure {
   color: #000;
   font-family: 'Lora', serif, Helvetica;
+  font-weight: 200;
+  margin: 0 0 20px 0;
+}
+
+h4{
+  color: #000;
+  font-family: 'Open Sans', sans-serif, Helvetica;
   font-weight: 200;
   margin: 0 0 20px 0;
 }
