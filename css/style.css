@@ -63,19 +63,13 @@ p {
   margin-bottom: 20px;
 }
 
-h1, h2, h3, h5, h6, figure {
+h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: 'Lora', serif, Helvetica;
   font-weight: 200;
   margin: 0 0 20px 0;
 }
 
-h4{
-  color: #000;
-  font-family: 'Open Sans', sans-serif, Helvetica;
-  font-weight: 200;
-  margin: 0 0 20px 0;
-}
 
 #godownbtn[data-v-737da71e]{
   position: absolute;
@@ -517,7 +511,7 @@ h4{
 }
 @media screen and (max-width: 768px) {
   .work .work-grid {
-  height: 360px;
+  height: 300px;
 }
     
     .work .work-grid .inner {
@@ -547,7 +541,7 @@ h4{
 @media screen and (max-width: 768px) {
     
   .work .work-grid {
-  height: 360px;
+  height: 300px;
 }
   .work .work-grid .inner .desc .cat {
     color: #333333;
@@ -661,7 +655,7 @@ h4{
 }
 
  .work .work-grid {
-  height: 360px;
+  height: 300px;
 }
 @media screen and (max-width: 480px) {
   .author .author-inner {
@@ -778,7 +772,7 @@ h4{
 @media screen and (max-width: 768px) {
   
   .work .work-grid {
-  height: 360px;
+  height: 300px;
 }   
     #fh5co-footer .fh5co-widget {
     text-align: left;
@@ -822,7 +816,7 @@ h4{
   }
     
  .work .work-grid {
-  height: 360px;
+  height: 300px;
 }
 
 }

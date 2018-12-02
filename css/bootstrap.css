@@ -908,8 +908,8 @@ pre code {
 }
 
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .row:before, .row:after {
   content: " ";
@@ -1087,7 +1087,7 @@ pre code {
 }
 
 .col-xs-offset-1 {
-  margin-left: 8.33333%;
+  margin-left: 6.33333%;
 }
 
 .col-xs-offset-2 {
