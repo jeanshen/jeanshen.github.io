@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: 'Spectral','Roboto Slab', serif, Avenir, Vernada, Helvetica, sans-serif;
+  font-family: 'Lora', serif, 'Open Sans', sans-serif, Helvetica;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
@@ -65,7 +65,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: 'Spectral','Roboto Slab', serif, Avenir, Vernada, Helvetica, sans-serif;
+  font-family: 'Lora', serif, Helvetica;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: Avenir, Vernada, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif, Helvetica;
 }
 .fh5co-nav .fh5co-social {
   margin: 3px 0 0 0;
@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   list-style: none;
   display: inline-block;
-  font-family: Avenir, Vernada, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif, Helvetica;
 }
 .fh5co-nav ul li a {
   text-transform: uppercase;
@@ -565,7 +565,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
 }
 .categories li {
-  font-family: Avenir, Vernada, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif, Helvetica;
   list-style: none;
   margin-bottom: 5px;
 }
@@ -626,7 +626,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
-  font-family: Avenir, Vernada, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif, Helvetica;
 }
 
 .title {
@@ -1101,7 +1101,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: Avenir, Vernada, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif, Helvetica;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 2px;
@@ -1312,14 +1312,14 @@ blockquote {
   border-left: none;
 }
 blockquote p {
-  font-family: "Georgia", Times;
+  font-family: 'Lora', serif, Helvetica;
   font-style: italic;
   font-size: 20px;
   line-height: 1.5;
   color: #666666;
 }
 blockquote .person {
-  font-family: 'Roboto Slab', serif, Avenir, Vernada, Helvetica, sans-serif;
+  font-family: 'Lora', serif, Helvetica;
   font-size: 14px;
   color: #b3b3b3;
 }
