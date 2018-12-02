@@ -758,6 +758,7 @@ blockquote {
   border-left: 3px solid #666;
   color:#666;    
 }
+
 blockquote p:last-child,
 blockquote ul:last-child,
 blockquote ol:last-child {
