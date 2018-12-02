@@ -642,8 +642,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-.fh5co-content. {
+.fh5co-content {
   margin-bottom: 2em;
+  margin-top: 2em;
 }
 .fh5co-content h2 {
   font-size: 24px;
@@ -655,12 +656,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-content h3 {
   font-size: 20px;
+  letter-spacing: 1px; 
 }
 .fh5co-content p {
   font-size: 18px;
   line-height: 2;
-  color: #000;
-  font-family: 'Raleway', sans-serif, Helvetica;    
+  color: #666;
+  font-family: 'Raleway', sans-serif, Helvetica; 
+  font-weight: 100;
+  letter-spacing: 1px;    
 }
 .fh5co-content span {
   display: block;
@@ -673,7 +677,6 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-content ul {
   padding: 0;
-  margin: 0;
 }
 .fh5co-content ul li {
   font-size: 18px;
