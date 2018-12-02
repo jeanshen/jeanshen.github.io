@@ -605,6 +605,15 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
 }
+
+.fh5co-heading h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #000;
+}    
 .fh5co-heading h2 {
   font-size: 24px;
   margin-bottom: 20px;
@@ -1353,11 +1362,11 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-blockquote {
+.fh5co-heading.blockquote {
   padding-left: 0;
   border-left: none;
 }
-blockquote h2 {
+.fh5co-heading.blockquote h2 {
   font-family: 'Lora', serif, Helvetica;
   font-style: italic;
   font-size: 20px;
