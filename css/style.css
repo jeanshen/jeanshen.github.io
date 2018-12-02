@@ -599,6 +599,21 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 1px;
 }
 
+.fh5co-intro {
+  margin-bottom: 6em;
+  margin-top: 6em;
+}
+
+.fh5co-intro h1 {
+  font-size: 36px;
+  font-family: 'Lora', serif, Helvetica;    
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #000;
+}
+
 .fh5co-heading {
   margin-bottom: 5em;
 }
