@@ -632,6 +632,52 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: 'Open Sans', sans-serif, Helvetica;
 }
 
+.fh5co-content {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+}
+.fh5co-content.fh5co-contentg-sm {
+  margin-bottom: 2em;
+}
+.fh5co-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #000;
+}
+.fh5co-content h3 {
+  font-size: 18px;
+  text-transform: uppercase;    
+}
+.fh5co-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #5a5a5a;
+  font-family: 'Open Sans', sans-serif, Helvetica;
+}
+.fh5co-content span {
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', sans-serif, Helvetica;
+}
+
+.fh5co-content ul {
+  padding: 0;
+  margin: 0;
+}
+.fh5co-content ul li {
+  font-size: 18px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+
 .title {
   margin-bottom: 40px;
 }
