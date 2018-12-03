@@ -253,7 +253,7 @@ th {
 
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #fff;
     page-break-inside: avoid;
   }
 
@@ -755,8 +755,8 @@ blockquote {
   padding: 5px  0 5px 20px;
   margin: 0 0 20px;
   font-size: 20px;
-  border-left: 2px solid #666;
-  color:#666;    
+  border-left: 2px solid #fff;
+  color:#fff;    
 }
 
 blockquote p:last-child,

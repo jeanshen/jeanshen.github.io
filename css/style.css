@@ -37,7 +37,7 @@
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-image: linear-gradient(to top, #fdfbfb 20%, #ebedee 80%);
+    background-image: linear-gradient(to top, #614385 20%, #516395 80%);
 }
 .bgTop {
     z-index: 15;
@@ -683,7 +683,7 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 1.5;
   font-weight: 200;
   letter-spacing: 1px;
-  color: #000;
+  color: #fff;
 }
 
 .fh5co-heading {
