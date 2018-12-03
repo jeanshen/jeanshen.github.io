@@ -221,11 +221,11 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 10%;
 }
 .fh5co-nav #fh5co-logo {
-  font-size: 20px;
+  font-size: 20px;  
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 200;
   font-family: 'Raleway', sans-serif, Helvetica;
 }
 .fh5co-nav .fh5co-social {
