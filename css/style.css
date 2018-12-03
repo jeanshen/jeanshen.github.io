@@ -493,13 +493,19 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-started,
 #fh5co-author,
-#fh5co-work,
 #fh5co-about,
 #fh5co-contact,
 #fh5co-footer {
+  padding: 4em 0;
+  clear: both;
+}
+
+
+#fh5co-work {
   padding: 6em 0;
   clear: both;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-started,
   #fh5co-author,
@@ -671,7 +677,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-intro {
-  margin-bottom: 14em;
+  margin-bottom: 12em;
   margin-top: 6em;
 }
 
