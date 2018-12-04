@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
-    padding: 20px 0;
+    padding: 12px 0;
   }
 }
 .fh5co-nav .fh5co-top-logo,
@@ -1248,7 +1248,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav-toggle {
   position: absolute;
   right: 0px;
-  top: 10px;
+  top: 5px;
   z-index: 21;
   padding: 6px 0 0 0;
   display: block;
