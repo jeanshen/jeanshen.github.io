@@ -29,7 +29,7 @@
     bottom: 0;
     top: 0;
     margin: 0;
-    height: 620px;
+    height: 700px;
 }
 .waveWrapperInner {
     position: absolute;
@@ -507,24 +507,28 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .scrollDown{
-  position: absolute;
-z-index: 99;
-    bottom: 10px;
-    width:100%;
+    z-index: 99;
+    padding-top: 20px;
     text-align: center;
-    
-    
+    color:#fff;
+}
+
+.scrollDown img{
+    width:1px
 }
 
 @media screen and (max-width: 768px) {
   #fh5co-started,
   #fh5co-author,
-  #fh5co-work,
   #fh5co-about,
   #fh5co-contact,
   #fh5co-footer {
     padding: 4em 0;
   }
+    
+#fh5co-work {
+  padding: 8em 0;
+}    
 }
 
 .feature-center {
