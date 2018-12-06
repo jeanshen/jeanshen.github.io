@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6, figure {
     position:fixed;
   }
  .waveWrapper {
-    height: 600px;
+    height: 660px;
 }
  .waveTop {
     background-size: 100% 100px;
@@ -520,16 +520,12 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-author,
 #fh5co-about,
 #fh5co-contact,
+#fh5co-work,
 #fh5co-footer {
   padding: 4em 0;
   clear: both;
 }
 
-
-#fh5co-work {
-  padding: 8em 0;
-  clear: both;
-}
 
 .scrollDown{
     z-index: 99;
@@ -547,13 +543,11 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-author,
   #fh5co-about,
   #fh5co-contact,
+    #fh5co-work,
   #fh5co-footer {
-    padding: 4em 0;
+    padding: 3em 0;
   }
-    
-#fh5co-work {
-  padding: 4em 0;
-}    
+       
 }
 
 .feature-center {
@@ -631,7 +625,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
     
     .work .work-grid .inner {
-    opacity: 1;
+       display: none;
    
   }
 }
@@ -700,11 +694,23 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 55px;
   letter-spacing: 1px;
 }
+
+.intro h3 {
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  padding-top:4em;    
+}
 @media screen and (max-width: 768px) {
   .intro h2 {
     font-size: 30px;
     line-height: 45px;
   }
+    .fh5co-intro {
+  margin-bottom: 6em;
+  margin-top: 4em;
+}
+
 }
 .intro h2 .fh5co-highlight {
   display: block;
@@ -717,7 +723,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-intro {
   margin-bottom: 6em;
-  margin-top: 4em;
+  margin-top: 6em;
 }
 
 .fh5co-intro h1 {
@@ -731,7 +737,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
