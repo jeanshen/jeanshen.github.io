@@ -540,13 +540,16 @@ h1, h2, h3, h4, h5, h6, figure {
 
 @media screen and (max-width: 768px) {
   #fh5co-started,
-  #fh5co-author,
   #fh5co-about,
   #fh5co-contact,
     #fh5co-work,
   #fh5co-footer {
     padding: 3em 0;
   }
+    
+    #fh5co-author{
+     padding: 1em 0;   
+    }
        
 }
 
@@ -753,7 +756,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }    
 .fh5co-heading h2 {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   line-height: 1.5;
   font-weight: 200;
   letter-spacing: 1px;
@@ -768,7 +771,8 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #666;
   font-family: 'Raleway', sans-serif, Helvetica; 
   font-weight: 100;
-  letter-spacing: 1px;    
+  letter-spacing: 1px; 
+  margin-bottom: 3em;
 }
 .fh5co-heading span {
   display: block;
