@@ -272,6 +272,9 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
     display: none;
   }
+    .fh5co-nav #fh5co-logo {
+  font-size: 24px;
+}
 }
 .fh5co-nav .menu-2 li.search {
   float: left;
@@ -754,7 +757,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }    
 .fh5co-heading h2 {
   font-size: 24px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
   line-height: 1.5;
   font-weight: 200;
   letter-spacing: 1px;
