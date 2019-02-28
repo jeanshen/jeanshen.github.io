@@ -702,28 +702,51 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-.shrink:hover #hide
+.hover:hover #hide
         {
             display: block;
+            
+    margin-top: -200px;
+            transform-origin: none;
+            transform: none;
 }
 
 #hide{
     display: none;
+   
     
             padding-bottom:  10px;
     
 }
 
-.shrink{
-    transition:all 0.3s ease-in-out;
+.shrink.work-grid,shrink.fh5co-heading{
+    transition:all 0.6s ease-in-out;
     
 }
 
-.shrink:hover
+.hover:hover .work-grid
         {
-            -webkit-transform: scale(0.85);
-            -ms-transform: scale(0.85);
-            transform: scale(0.85);
+            -webkit-transform: scale(0.75);
+            -ms-transform: scale(0.75);
+            transform: scale(0.75);
+            transform-origin: left top;
+            margin-left:-180px; 
+            transition:all 0.6s ease-in-out;
+            
+            
+
+            
+        }
+.hover:hover .fh5co-heading
+        {
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+            
+            transform-origin: left top;
+            margin-left:-460px; 
+            margin-top: -100px;
+                transition:all 0.6s ease-in-out;
             
             
 
@@ -731,7 +754,21 @@ h1, h2, h3, h4, h5, h6, figure {
         }
 
 
+.des-project p{
+    font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+  font-family: 'Raleway', sans-serif, Helvetica; 
+  font-weight: 100;
+  letter-spacing: 1px; 
+    margin-bottom: 6em;
+}
 
+.des-project p img{
+    
+  margin-left:  6px; 
+    width:8%;
+}
 
 @media screen and (max-width: 768px) {
   .work .work-grid {
@@ -742,6 +779,15 @@ h1, h2, h3, h4, h5, h6, figure {
        display: none;
    
   }
+    .hover:hover .work-grid,.hover:hover .fh5co-heading
+        {
+            -webkit-transform: none;
+            -ms-transform: none;
+            transform: none;
+            
+            
+        }
+    
 }
 .work .work-grid .inner .desc {
   display: table-cell;
@@ -975,6 +1021,14 @@ h1, h2, h3, h4, h5, h6, figure {
     width: 70%;
     margin-bottom: 40px;
   }
+     .hover:hover .work-grid,.hover:hover .fh5co-heading
+        {
+            -webkit-transform: none;
+            -ms-transform: none;
+            transform: none;
+            
+            
+        }
 }
 .author .desc {
   width: 60%;
