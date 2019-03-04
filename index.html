@@ -72,17 +72,28 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+
+
+       <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$("#scroll_down").click(function() {
+$("html, body").animate({
+scrollTop: $("#fh5co-work").offset().top }, {duration: 500,easing: "swing"});
+return false;
+});
+});
+</script>
+  
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-<style>
-    .fh5co-nav a,.fh5co-nav ul li a,.fh5co-nav .fh5co-social li a{
+<!--<style>
+   .fh5co-nav a,.fh5co-nav ul li a,.fh5co-nav .fh5co-social li a{
        color:rgb(255,255,255,0.7);    
     }
-    .fh5co-nav {
-     background: transparent;   
-    }
+   
      .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
   color: #fff;
 }
@@ -92,8 +103,13 @@
     .fh5co-nav .menu-2 li button:hover i, .fh5co-nav .menu-2 li button:focus i {
   color: #fff;
 }
-    
-
+        </style>-->
+<style>
+   
+   
+     .fh5co-nav {
+     background: transparent;   
+    }
     @media screen and (max-width: 768px) {
         .fh5co-nav {
      background: #fff;   
@@ -134,18 +150,14 @@
                margin-top: 4em;
            }
     
-
-   
-
-    
-        </style>
+</style>
 	</head>
 	<body>
 		
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
+	<nav class="fh5co-nav" role="navigation" >
 		<div class="container">
 			<div class="fh5co-top-logo">
 				<div id="fh5co-logo" ><a href="index.html"><i class="icon-home"></i></a></div>
@@ -165,10 +177,12 @@
 			
 		</div>
 	</nav>
-       <div id="fh5co-author">
+        
+       <div id="fh5co-author" style="background-color: #f5f5f5;">
            <div class="container">
-               <div class="row" width="100%" >
-                   <div class="wave">
+               <div class="row" width="100%">
+                   
+                   <!--<div class="wave">
                <div class="animate-box fadeInUp animated-fast">
                     <div class="row waveWrapper waveAnimation">
   <div class="waveWrapperInner bgTop">
@@ -182,29 +196,35 @@
   </div>
 </div>    
                </div>
-                   </div>
+                   </div>-->
                
 			</div>
-              <!-- <div style="margin-top: 2em" class="row text-center">
+              <!--<div style="margin-top: 4em;" class="row text-center">
       <img class="profile-picture fadeIn" src="images/IMG_9516.jpg">
     </div>-->
         <div class="row">
-                <div class="col-md-10 col-md-offset-1 animate-box text-center fh5co-intro">
-               <p style="color: white;font-size: 22px">Hello, I'm Jean Shen</p>
-               <h1>Design isn't cooking, which you start only when all ingredients are ready.</h1>
+                <div class="col-md-10 animate-box text-left fh5co-intro">
+                    <h1 style="color: #333;font-size: 10.5em; line-height: 0.8;">Hello,</h1>
+                    <h4 style="color: #333;font-size: 6.5em">I'm Jean</h4>
+               <p style="color: #666;font-size: 18px; width: 440px;">Design isn't cooking, which you start only when all ingredients are ready.</p>
+                    
                 </div>
-			</div>
-               <div class="row"> 
-                   <div class="scrollDown col-md-12 text-center">
-                    <span>
+               <div class="row" style="margin-top: -4em;"> 
+                   
+                   <div class="scrollDown col-md-12 text-center"><p style="color: #000;">view my work</p> <button type="button" class="scroll_down" id="scroll_down"></button>
+                       
+                   
+                   </div>
+                   <!-- <span>
                         
                         <img src='images/scroll-down.gif' alt=""><br>
-                    </span>
+                    </span>-->
                 </div></div>
            </div>
-        </div>
-   
+                </div>
         
+   
+     <div id="fullpage">   
 	<div id="fh5co-work">
 		<div class="container"> 
             <!--<div class="row top-line animate-box">
@@ -213,29 +233,34 @@
 				</div>
 			</div>-->
             
-			<div class="row fh5co-intro">   
-				<div class="col-md-10 col-md-offset-1 text-center animate-box">
+			<div class="row ">
+                
+                  <div class="section page1">  
+                <div class="row" style="margin:0;">
+				<div class="col-md-12 animate-box">
                     
                     
-                    <div class="hover">	
+                    	
 					<a class="work" href="ms_china.html">
-                        <div class="shrink">
-						<div class="work-grid " style="background-image:url(images/project-2/p2-cover4.png);">	
-						</div>
-                         <div class="text-center fh5co-heading">
-                    <h4>Leading US Retailer</h4> 
+                       
+                        <div class="col-md-4 text-left des-project animate-box" style="margin-top: 3em;">
+                            <div class="text-left fh5co-heading">
+                    <h2>Leading US Retailer</h2> 
                             <span class="cat">Cross-boarder eCommerce | UX/UI Design</span>
-				</div></div>
-                            
-                        <div id="hide">
-                        <div class="col-md-5 col-md-offset-8 text-left des-project animate-box">
-                            <p style="font-weight: 600;margin-bottom:2em">Read Story<img src='images/arrow-more.gif' alt=""></p>
+                            </div>
                             <p style="font-size: 14px">The client is one of America’s largest department stores and had identified China as a market for international expansion. The client wanted to use an online-only market entry model that would allow them to test the market before investing in traditional physical retailing models.</p> 
+                            <p style="font-weight: 600;margin-bottom:2em">Read Story<img src='images/arrow-more.gif' alt=""></p>
                             
                                 
                     
-                    </div>
-                        </div>
+                    </div> 
+                        <div class="col-md-8 text-center animate-box">
+                        <div class="shrink">
+						<div class="work-grid " style="background-image:url(images/project-2/p2-cover4.png);">	
+						</div>
+                         </div></div>
+                           
+                        
                         
                          
                     
@@ -244,102 +269,131 @@
                     
                         
                     </a></div>
-                    </div>
+                      </div></div>
                 
-                
-                
-                <div class="col-md-10 col-md-offset-1 text-center animate-box">
-                    <div class="hover">	
+                 <div class="section page3">  
+                    <div class="row" style="background:linear-gradient(to right, #fdfbfb,#ebedee);margin-left: -40px;margin-right: -40px;">
+                <div class="col-md-12 animate-box">
                     
-					<a class="work" href="trip9.html">
-                        <div class="shrink">
-						<div class="work-grid" style="background-image:url(images/project-4/p4-cover2.png);">
-						
-                        </div>
-                         <div class="text-center fh5co-heading">
-                    <h4>Trip 9</h4> 
-                            <span class="cat">Travel Mobile App | UX/UI Design</span>
-				</div>
-                            </div> 
-                        <div id="hide">
-                            
-                        <div class="col-md-5 col-md-offset-8 text-left des-project animate-box">
-                            <p style="font-weight: 600 ;margin-bottom:2em">Read Story<img src='images/arrow-more.gif' alt=""></p>
-                            <p class="des-project">Trip 9 is a travel app for Chinese tourist who is traveling in Southeast Asia. It helps users find local retailers, bars, restaurants and other serviceshelps. Users are able to search by GPS to experience more local play, and check the shop address, map and reviews.</p> 
-                    </div>
-                        </div>
-                       </a>
-                    </div></div>
-                
-                
-                <div class="col-md-10 col-md-offset-1 text-center animate-box">
-                    <div class="hover">
 					    <a class="work" href="confidential_1.html">
+                             <div class="col-md-8 text-center animate-box">
                         <div class="shrink">
-						<div class="work-grid" style="background-image:url(images/project-1/p1-cover5.png);">
+						<div class="work-grid" style="background-image:url(images/project-1/p1-cover5.png)">
+                        </div></div>
+                         
                         </div>
-                         <div class="text-center fh5co-heading">
-                    <h4>Leading Techlogy Company</h4> 
+                        <div class="col-md-4 text-left des-project animate-box" style="margin-top: 3em;">
+                            <div class="text-left fh5co-heading">
+                    <h2>Leading Techlogy Company</h2> 
                             <span class="cat">CRM Web/Mobile App | UX/UI Design</span>
 				</div>
-                        </div>
-                        <div id="hide">
-                        <div class="col-md-5 col-md-offset-8 text-left des-project animate-box">
-                            <p style="font-weight: 600 ;margin-bottom:2em"><i class="icon-shield"></i>Read Story<img src='images/arrow-more.gif' alt=""></p>
-                            <p>This project requires a password due to a Non-Disclosure Agreement (NDA).</p> 
+                            
+                            <p>This project requires a password due to a Non-Disclosure Agreement (NDA).</p> <p style="font-weight: 600 ;margin-bottom:2em"><i class="icon-shield"></i>Read Story<img src='images/arrow-more.gif' alt=""></p>
                     </div>
-                        </div>
 					</a>
-                    </div></div>
+                    </div></div></div>
                 
-                 
-                <div class="col-md-10 col-md-offset-1 text-center animate-box">
-                    <div class="hover">
+                 <div class="section page4">  
+                <div class="row" style="margin:0;"> 
+                <div class="col-md-12 animate-box">
 					<a class="work" href="cr.html">
-                        <div class="shrink">
-						<div class="work-grid" style="background-image:url(images/project-3/p3-cover2.png);">
-                        </div>
-                         <div class="text-center fh5co-heading">
-                    <h4>PwC Campus Recruitment</h4> 
+                        <div class="col-md-4 text-left des-project animate-box" style="margin-top: 3em;">
+                            <div class="text-left fh5co-heading">
+                    <h2>PwC Campus Recruitment</h2> 
                             <span class="cat">Official Website | UX/UI Design</span>
 				</div>
-                        </div>
-                         <div id="hide">
-                        <div class="col-md-5 col-md-offset-8 text-left des-project animate-box">
                             <p style="font-weight: 600 ;margin-bottom:2em">Read Story<img src='images/arrow-more.gif' alt=""></p>
                     <p>To attract graduates in mainland China and Hong Kong, PwC launched its campus recruitment official website. The recruitment programme focuses on offering graduates an opportunity to shape their future and accelerate their personal and professional growth. We designed and revamped the website to better deliver the key messages and acheive the goal.</p> 
                     </div>
+                        <div class="col-md-8 text-center animate-box">
+                        <div class="shrink">
+						<div class="work-grid" style="background-image:url(images/project-3/p3-cover2.png);">
                         </div>
-					</a>
-                     </div></div>
-                
-                
-				
-                
-                <div class="col-md-10 col-md-offset-1 text-center animate-box">
-                    <div class="hover">
+                           
+                         
+                            </div></div> </a></div></div></div>
+                        
+                        <div class="section page5">  
+               <div class="row" style="background:linear-gradient(to right, #fdfbfb,#ebedee);margin-left: -40px;margin-right: -40px;"> 
+                <div class="col-md-12 animate-box">
+                    
 					<a class="work" href="confidential_2.html">
+                        <div class="col-md-8 text-left des-project animate-box">
                         <div class="shrink">
 						<div class="work-grid" style="background-image:url(images/project-5/p5-cover2.png);">
                         </div>
-                         <div class="text-center fh5co-heading">
+                         
+                            </div></div>
+                        <div class="col-md-4 text-left des-project animate-box" style="margin-top: 3em;">
+                            <div class="text-left fh5co-heading">
                     <h4><i class="icon-shield"></i>Leading global provider of ICT</h4> 
                             <span class="cat">ERP Web/Mobile App | UX/UI Design </span>
 				</div>
-                        </div>
-                         <div id="hide">
-                        <div class="col-md-5 col-md-offset-8 text-left des-project animate-box">
                              <p style="font-weight: 600 ;margin-bottom:2em"><i class="icon-shield"></i>Read Story<img src='images/arrow-more.gif' alt=""></p>
                     <p>This project requires a password due to a Non-Disclosure Agreement (NDA).</p> 
                     </div>
-                        </div>
 					</a>
+                   </div></div></div>
+                
+                        
+					
+                    </div></div>
+                
+                <div class="section page2">  
+                <div class="col-md-4 animate-box">
+					<a class="work" href="trip9.html">
+                        <div class="shrink">
+						<div class="work-grid" style="height: 300px; background-image:url(images/project-4/p4-cover1.png);">
+						
+                        </div>
+                        
+                            </div> 
+                        <div class="text-center fh5co-heading">
+                    <h4>Trip 9</h4> 
+                            <span class="cat">Travel Mobile App | UX/UI Design</span>
 				</div>
-                </div>
+                        <div id="hide">
+                            
+                        <div class="col-md-4  text-left des-project animate-box " style="margin-top: 3em;">
+                             
+                            
+                            <p class="des-project">Trip 9 is a travel app for Chinese tourist who is traveling in Southeast Asia. It helps users find local retailers, bars, restaurants and other serviceshelps. Users are able to search by GPS to experience more local play, and check the shop address, map and reviews.</p> 
+                            <p style="font-weight: 600 ;margin-bottom:2em">Read Story<img src='images/arrow-more.gif' alt=""></p>
+                    </div>
+                        </div>
+                           </a>
+                    </div></div>
+                
+               
+                
+                   
                 
                 
 				
-				 
+                
+				<div class="section page6">  
+				
+				<div class="col-md-4 animate-box">
+					<a class="work" href="ht.html">
+                        <div class="shrink">
+						<div class="work-grid" style="height: 300px; background-image:url(images/project-6/p6-cover2.png);">
+                        </div>
+                        <div class="text-center fh5co-heading">
+                    <h4>Large Investment Bank</h4> 
+                            <span class="cat">Corporate Website | UX Design </span>
+				</div>
+                        </div>
+                         <div id="hide">
+                        <div class="col-md-4 text-left des-project animate-box">
+                            <p style="font-weight: 600 ;margin-bottom:2em">Read Story<img src='images/arrow-more.gif' alt=""></p>
+                    <p>Client is one of China’s largest investment bank, though it lacked a modern and international brand presence. They were looking to raise the brand’s digital presence globally.</p> 
+                    </div>
+                        </div>
+					</a>
+                    </div></div>
+              
+                 <!--    <div class="section page6">  
+				<div class="row" style="background-color: #f5f5f5;margin:0;"> 
 				<div class="col-md-10 col-md-offset-1 text-center animate-box">
                     <div class="hover">
 					<a class="work" href="ht.html">
@@ -358,11 +412,12 @@
                     </div>
                         </div>
 					</a>
-                     </div></div>
+                    </div></div></div></div>-->
+              
                 
                 
-				
-			</div>
+			</div>	
+            </div>
 		</div>
 	</div>
 	
@@ -432,6 +487,9 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+        
+        
+      
 
 	</body>
 </html>
