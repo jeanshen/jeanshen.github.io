@@ -868,6 +868,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .work {
   margin-bottom: 40px;
+
 }
 .work .work-grid {
   background-size: cover;
@@ -892,11 +893,17 @@ h1, h2, h3, h4, h5, h6, figure {
     
     display: none;
 }
+
+.hover{
+    
+    
+    border-bottom: 1px solid #666;
+}
 .hover:hover #hide
         {
             display: block;
             
-    margin-top: -200px;
+    margin-top: -120px;
             transform-origin: none;
             transform: none;
 }
@@ -910,11 +917,10 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .hover:hover .work-grid
         {
-            -webkit-transform: scale(0.75);
-            -ms-transform: scale(0.75);
-            transform: scale(0.75);
-            transform-origin: left top;
-            margin-left:-180px; 
+            -webkit-transform: scale(0.85);
+            -ms-transform: scale(0.85);
+            transform: scale(0.85);
+            transform-origin: top;
             transition:all 0.6s ease-in-out;
             opacity: 0.7
             
@@ -924,13 +930,13 @@ h1, h2, h3, h4, h5, h6, figure {
         }
 .hover:hover .fh5co-heading
         {
-            -webkit-transform: scale(1);
-            -ms-transform: scale(1);
-            transform: scale(1);
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
             
-            transform-origin: left top;
-            margin-left:-460px; 
-            margin-top: -100px;
+            transform-origin: left bottom;
+            margin-left:-260px; 
+            margin-top: -90px;
                 transition:all 0.6s ease-in-out;
             
             
@@ -947,6 +953,8 @@ h1, h2, h3, h4, h5, h6, figure {
         }
 
 
+
+
 .des-project p{
     font-size: 14px;
   line-height: 1.5;
@@ -954,10 +962,19 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: 'Raleway', sans-serif, Helvetica; 
   font-weight: 100;
   letter-spacing: 1px; 
-    margin-bottom: 6em;
+    padding-top:20px;
 }
 
-.des-project p img{
+.des-project span{
+    font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+  font-family: 'Raleway', sans-serif, Helvetica; 
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.des-project span img{
     
   margin-left:  6px; 
     width:8%;
