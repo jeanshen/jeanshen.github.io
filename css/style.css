@@ -11,77 +11,180 @@
 *
 * ======================================================= */
 
-button.scroll_down {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  height: 50px;
-  width: 30px;
-  bottom: 60px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 20px;
-  cursor: pointer;
-  outline: none;
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-button.scroll_down:before {
+@-moz-keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.m-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;  
+}
+.m-intro:before, .m-intro:after {
+  display: block;
+  content: " ";
+  width: 2560px;
+  height: 2560px;
   position: absolute;
-  top: 10px;
+  margin-top: -1280px;
+  margin-left: -1280px;
+  transform-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 50;
+  top: 50%;
   left: 50%;
-  content: '';
-  width: 6px;
-  height: 6px;
-  margin-left: -3px;
-  background-color: #000;
-  border-radius: 100%;
-  -webkit-animation: scroll_down_btn-animation 2s infinite;
-  animation: scroll_down_btn-animation 2s infinite;
-  box-sizing: border-box;
 }
-
-@keyframes scroll_down_btn-animation {
-  0% {
-    transform: translate(0, 0);
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-  80% {
-    transform: translate(0, 20px);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
+.m-intro:before {
+  background-image: url("../images/circle_inner.png");
+  background-size: 100% auto;
+  -webkit-animation: rotate 30s infinite linear;
+  -moz-animation: rotate 30s infinite linear;
+  -o-animation: rotate 30s infinite linear;
+  animation: rotate 30s infinite linear;
 }
-
-@-webkit-keyframes scroll_down_btn-animation {
-  0% {
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-  80% {
-    -webkit-transform: translate(0, 20px);
-    transform: translate(0, 20px);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
+.m-intro:after {
+  background-image: url("../images/circle_outer.png");
+  background-size: 100% auto;
+  -webkit-animation: rotate 80s infinite linear;
+  -moz-animation: rotate 80s infinite linear;
+  -o-animation: rotate 80s infinite linear;
+  animation: rotate 80s infinite linear;
+}
+.e-text {
+  width: 685px;
+  position: relative;
+  z-index: 100;
+  padding-top: 2em;    
+}
+.e-text h1 {
+  color: #1a1a1a;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 108px;
+  line-height: 180px;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  margin: 30px 0;
+  position: relative;
+}
+@supports (-webkit-background-clip: text) {
+  .e-text h1 {
+    background: radial-gradient(ellipse at center, #333 0%, #999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
+.e-text .subtitle {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.e-text .preamble {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px; 
+  padding-bottom: 2em;    
+}
 
-/* -------------------------------------------------------------------------
-   end Scroll Down Button 
- * ------------------------------------------------------------------------- */
+.e-particles-orange {
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  width: 1000px;
+  height: 600px;
+  opacity: 0.4;
+  transform: translate(-50%, -50%);
+}
 
-/* ## Test ## */
+.e-particles-blue {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+
+
+.scroll_down {
+ position: absolute;
+	left: 50%;
+	bottom: 10px;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0;
+  width: 13px;
+  height: 13px;
+  border-bottom: 2px solid #333;
+  border-right: 2px solid #333;
+  z-index: 9;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+	-webkit-animation: fade_move_down 4s ease-in-out infinite;
+	-moz-animation:    fade_move_down 4s ease-in-out infinite;
+	animation:         fade_move_down 4s ease-in-out infinite;
+}
+
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
 
 
 .profile-picture {
@@ -232,7 +335,7 @@ button.scroll_down:before {
 
 
 body {
-  font-family: 'Lora', serif, 'Raleway, sans-serif, Helvetica;
+  font-family: 'Lora', serif, 'Raleway', sans-serif, 'Helvetica';
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
@@ -281,12 +384,18 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
+  font-family:  'Raleway', sans-serif, 'Helvetica'; 
+}
+
+span{
+  font-family:  'Raleway', sans-serif, 'Helvetica';   
+    
 }
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: 'Lora', serif, Helvetica;
+  font-family: 'Lora', serif, 'Helvetica';
   font-weight: 200;
   margin: 0 0 20px 0;
 }
@@ -348,7 +457,7 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   padding: 30px 0 10px 0;
   z-index: 1;
-  background: #ffffff;
+  background: #fff;
 }
 @media screen and (max-width: 768px) {
     .fh5co-nav {
