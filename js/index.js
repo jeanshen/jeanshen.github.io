@@ -3,7 +3,7 @@ particlesJS("particleCanvas-Orange",
 {
   "particles": {
     "number": {
-      "value": 60,
+      "value": 80,
       "density": {
         "enable": true,
         "value_area": 800
@@ -117,7 +117,7 @@ particlesJS("particleCanvas-Blue",
 {
   "particles": {
     "number": {
-      "value": 30,
+      "value": 60,
       "density": {
         "enable": true,
         "value_area": 800
