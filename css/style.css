@@ -878,6 +878,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 300px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s ;
+     border-bottom: 1px solid #999;
 }
 .work .work-grid .inner {
   display: table;
@@ -897,8 +898,11 @@ h1, h2, h3, h4, h5, h6, figure {
 .hover{
     
     
-    border-bottom: 1px solid #666;
+   
 }
+
+
+
 .hover:hover #hide
         {
             display: block;
@@ -917,9 +921,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .hover:hover .work-grid
         {
-            -webkit-transform: scale(0.85);
-            -ms-transform: scale(0.85);
-            transform: scale(0.85);
+            -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+            transform: scale(0.8);
             transform-origin: top;
             transition:all 0.6s ease-in-out;
             opacity: 0.7
@@ -1152,6 +1156,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-heading h3 {
   font-size: 16px;   
+}
+
+.fh5co-heading h4 {
+  padding-top: 2em;   
 }
 .fh5co-heading p {
   font-size: 16px;

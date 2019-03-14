@@ -3,7 +3,7 @@ particlesJS("particleCanvas-Orange",
 {
   "particles": {
     "number": {
-      "value": 120,
+      "value": 100,
       "density": {
         "enable": true,
         "value_area": 800
@@ -13,7 +13,7 @@ particlesJS("particleCanvas-Orange",
       "value": "#ccc"
     },
     "shape": {
-      "type": "circle",
+      "type": "edge",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -28,7 +28,7 @@ particlesJS("particleCanvas-Orange",
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.4,
       "random": false,
       "anim": {
         "enable": true,
@@ -38,7 +38,7 @@ particlesJS("particleCanvas-Orange",
       }
     },
     "size": {
-      "value": 20,
+      "value": 50,
       "random": true,
       "anim": {
         "enable": false,
