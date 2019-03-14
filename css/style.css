@@ -359,7 +359,7 @@ body {
 }
 .background{
     background-image: url(../images/art-background-beautiful-1084510.jpg) ;
-    background-size:cover;
+    background-size:auto;
 background-position: right;
 
 }
