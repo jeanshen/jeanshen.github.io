@@ -150,7 +150,7 @@
 .scroll_down {
  position: absolute;
 	left: 50%;
-	bottom: 10px;
+	bottom: 4em;
 	display: block;
 	text-align: center;
 	font-size: 20px;
@@ -159,8 +159,8 @@
 	text-shadow: 0;
   width: 13px;
   height: 13px;
-  border-bottom: 2px solid #333;
-  border-right: 2px solid #333;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
   z-index: 9;
   left: 50%;
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
@@ -888,7 +888,6 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 300px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s ;
-     border-bottom: 1px solid #999;
 }
 .work .work-grid .inner {
   display: table;
@@ -907,9 +906,85 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .hover{
     
-    
+    margin-top: 4em;
    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ipg-link-orange.ipg-ani-arrow1:before {
+    background: #333;
+  }
+  
+.ipg-link-orange.ipg-ani-arrow1:after {
+    border-color: transparent transparent transparent #333;
+  }
+
+.ipg-link-orange.ipg-ani-arrow2:before {
+    background: #333;
+  }
+  
+.ipg-link-orange.ipg-ani-arrow2:after {
+    border-color: #333;
+  }
+
+
+/* Animated arrow */
+
+.ipg-ani-arrow1 {  
+  padding-right: 80px;
+  position: relative;
+    
+}
+
+  /* Arrow line */
+.ipg-ani-arrow1:before {
+  content: "";
+    width: 30px;
+    height: 1px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+    transition: all 0.3s ease;
+  }
+  
+.ipg-ani-arrow1:hover:before {
+    right: 25px;
+    width: 45px;
+  }
+
+  /* Arrow head */
+.ipg-ani-arrow1:after {
+    border-style: solid;
+        border-width: 5px 0 5px 5px;
+        border-color: transparent transparent transparent #000000;
+        content: "";
+        height: 0;  
+        position: absolute;
+        right: 35px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: all 0.3s ease;
+        width: 0;  
+  }
+  
+.ipg-ani-arrow1:hover:after {
+    right: 20px;
+  }
+
 
 
 
@@ -917,9 +992,9 @@ h1, h2, h3, h4, h5, h6, figure {
         {
             display: block;
             
-    margin-top: -120px;
-            transform-origin: none;
-            transform: none;
+            transform-origin: bottom right;
+            transition:all 0.6s ease-in-out;
+           
 }
 
 
@@ -929,14 +1004,15 @@ h1, h2, h3, h4, h5, h6, figure {
     
 }
 
-.hover:hover .work-grid
+.hover:hover 
         {
-            -webkit-transform: scale(0.8);
-            -ms-transform: scale(0.8);
-            transform: scale(0.8);
-            transform-origin: top;
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            transform-origin: none;
             transition:all 0.6s ease-in-out;
-            opacity: 0.7
+            opacity: 0.85;
+                
             
             
 
@@ -962,36 +1038,67 @@ h1, h2, h3, h4, h5, h6, figure {
             -webkit-transform: scale(1.1);
             -ms-transform: scale(1.1);
             transform: scale(1.1);
+            transform-origin: top right;
             transition:all 0.6s ease-in-out;
             opacity: 0.7;  
         }
 
 
+.des-project{
+    
+    
+    padding-left: 2em;
+}
+
+.hover:hover.des-project p{
+    
+    
+    text-decoration: underline;
+}
 
 
 .des-project p{
     font-size: 14px;
-  line-height: 1.5;
-  color: #666;
+  color: #333;
   font-family: 'Raleway', sans-serif, Helvetica; 
-  font-weight: 100;
   letter-spacing: 1px; 
-    padding-top:20px;
+    padding-top:2em;
+}
+.des-project h4 {
+    font-size: 20px;
+  color: #442987;
+  font-weight: 400;
+  letter-spacing: 1px; 
+    padding-top: 2em; 
+}
+
+.des-project h5 {
+  color: #442987;
+  font-weight: 400;
+  letter-spacing: 1px; 
+}
+.des-project li{
+     font-size: 14px;
+  color: #333;
+  font-weight: 100;
+  letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif, Helvetica; 
 }
 
 .des-project span{
     font-size: 14px;
-  line-height: 1.5;
   color: #666;
   font-family: 'Raleway', sans-serif, Helvetica; 
   font-weight: 100;
   letter-spacing: 1px;
+    margin-top: 2em;
 }
 
-.des-project span img{
+.des-project p img{
     
-  margin-left:  6px; 
-    width:8%;
+  margin-left:  6px;
+    margin-top: 3em;
+    width:12%;
 }
 
 @media (hover:none), 
@@ -1022,7 +1129,8 @@ h1, h2, h3, h4, h5, h6, figure {
 .work .work-grid .inner .desc {
   display: table-cell;
   vertical-align: middle;
-  padding: 40px;
+  padding-left: 40px;
+    padding-left: 40px;
 }
 .work .work-grid .inner .desc h3 {
   font-size: 16px;
@@ -1117,28 +1225,29 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-intro h1 {
-  font-size: 120px;
+  font-size: 88px;
   line-height: 1;
   font-weight: 200;
   letter-spacing: 1px;
-  color: #333;
+  color: #fff;
 }
 .fh5co-intro h4 {
-  font-size: 88px;   
+  font-size: 66px;   
   margin-bottom: 20px;
   line-height: 1;
   font-weight: 200;
   letter-spacing: 1px;
-  color: #333;
+  color: #fff;
 }
 
 .fh5co-intro p {
-  font-size: 20px;   
+  font-size: 22px;   
   margin-bottom: 20px;
   line-height: 1.5;
   font-weight: 200;
   letter-spacing: 1px;
-  color: #666;
+  color: #fff;
+    width: 470px;
 }
 
 .fh5co-heading {
