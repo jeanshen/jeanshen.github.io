@@ -505,7 +505,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
 }
 .fh5co-nav .fh5co-top-logo {
-  width: 30%;
+  width: 6%;
 }
 .fh5co-nav .fh5co-top-menu {
   width: 65%;
@@ -590,7 +590,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 3px 0 0 0;
 }
 .fh5co-nav ul li {
-  padding: 0;
+  padding: 0 8px;
   margin: 0;
   list-style: none;
   display: inline-block;
@@ -601,7 +601,7 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 2px;
   font-size: 13px;
   padding: 30px 10px;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(0, 0, 0, 0.4);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -670,7 +670,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 .fh5co-nav ul li.active > a {
-  color: #cabcab !important;
+  color: #000 !important;
 }
 .fh5co-nav ul li .form-group {
   border: 1px solid red;
@@ -992,7 +992,7 @@ h1, h2, h3, h4, h5, h6, figure {
         {
             display: block;
             
-            transform-origin: bottom right;
+            transform-origin: right;
             transition:all 0.6s ease-in-out;
            
 }
@@ -1004,21 +1004,21 @@ h1, h2, h3, h4, h5, h6, figure {
     
 }
 
-.hover:hover 
+.hover:hover .des-project
         {
-            -webkit-transform: scale(1.1);
-            -ms-transform: scale(1.1);
-            transform: scale(1.1);
+            -webkit-transform: scale(0.95);
+            -ms-transform: scale(0.95);
+            transform: scale(0.95);
             transform-origin: none;
-            transition:all 0.6s ease-in-out;
-            opacity: 0.85;
+            transition:all 0.7s ease-in-out;
+            opacity: 0.7;
                 
             
             
 
             
         }
-.hover:hover .fh5co-heading
+.hover2:hover .fh5co-heading
         {
             -webkit-transform: scale(0.9);
             -ms-transform: scale(0.9);
@@ -1033,14 +1033,13 @@ h1, h2, h3, h4, h5, h6, figure {
 
             
         }
-.hover2:hover .work-grid
+.hover:hover .work-grid
         {
             -webkit-transform: scale(1.1);
             -ms-transform: scale(1.1);
             transform: scale(1.1);
-            transform-origin: top right;
             transition:all 0.6s ease-in-out;
-            opacity: 0.7;  
+            opacity: 1;  
         }
 
 
@@ -1221,12 +1220,12 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-intro {
   margin-bottom: 6em;
-  margin-top: 3em;
+  margin-top: 4em;
 }
 
 .fh5co-intro h1 {
-  font-size: 88px;
-  line-height: 1;
+  font-size: 64px;
+  line-height: 1.1;
   font-weight: 200;
   letter-spacing: 1px;
   color: #fff;
@@ -1241,7 +1240,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-intro p {
-  font-size: 22px;   
+  font-size: 20px;   
   margin-bottom: 20px;
   line-height: 1.5;
   font-weight: 200;
