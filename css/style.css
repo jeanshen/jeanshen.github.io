@@ -49,6 +49,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  margin: 0 auto;
   overflow: hidden;
   position: relative; 
   background-image:linear-gradient(to left, transparent 10%, #0C2C53 90%), url("../images/steve-johnson-5Oe8KFH5998-unsplash.jpg"); 
@@ -1168,7 +1169,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 200;
   letter-spacing: 1px;
   color: #fff;
-    width: 470px;
+    width: 70%;
     transform:skewY(4deg);
 }
 
