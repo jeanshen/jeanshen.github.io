@@ -52,39 +52,12 @@
   margin: 0 auto;
   overflow: hidden;
   position: relative; 
+  background-image:linear-gradient(to left, transparent 10%, #0C2C53 90%), url("../images/steve-johnson-5Oe8KFH5998-unsplash.jpg"); 
+  background-size:cover; 
+  transform:skewY(-4deg); 
    
 }
-.m-intro:before, .m-intro:after {
-  display: block;
-  content: " ";
-  width: 2560px;
-  height: 2560px;
-  position: absolute;
-  margin-top: -1280px;
-  margin-left: -1280px;
-  transform-origin: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 50;
-  top: 50%;
-  left: 50%;
-}
-.m-intro:before {
-  background-image: url("../images/circle_inner.png");
-  background-size: 100% auto;
-  -webkit-animation: rotate 30s infinite linear;
-  -moz-animation: rotate 30s infinite linear;
-  -o-animation: rotate 30s infinite linear;
-  animation: rotate 30s infinite linear;
-}
-.m-intro:after {
-  background-image: url("../images/circle_outer.png");
-  background-size: 100% auto;
-  -webkit-animation: rotate 80s infinite linear;
-  -moz-animation: rotate 80s infinite linear;
-  -o-animation: rotate 80s infinite linear;
-  animation: rotate 80s infinite linear;
-}
+
 .e-text {
   width: 685px;
   position: relative;
@@ -169,6 +142,7 @@
 	-webkit-animation: fade_move_down 4s ease-in-out infinite;
 	-moz-animation:    fade_move_down 4s ease-in-out infinite;
 	animation:         fade_move_down 4s ease-in-out infinite;
+    cursor: pointer;
 }
 
 
@@ -467,7 +441,6 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   padding: 30px 0 10px 0;
   z-index: 1;
-  background: #fff;
 }
 @media screen and (max-width: 768px) {
     .fh5co-nav {
@@ -923,69 +896,6 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 
-.ipg-link-orange.ipg-ani-arrow1:before {
-    background: #333;
-  }
-  
-.ipg-link-orange.ipg-ani-arrow1:after {
-    border-color: transparent transparent transparent #333;
-  }
-
-.ipg-link-orange.ipg-ani-arrow2:before {
-    background: #333;
-  }
-  
-.ipg-link-orange.ipg-ani-arrow2:after {
-    border-color: #333;
-  }
-
-
-/* Animated arrow */
-
-.ipg-ani-arrow1 {  
-  padding-right: 80px;
-  position: relative;
-    
-}
-
-  /* Arrow line */
-.ipg-ani-arrow1:before {
-  content: "";
-    width: 30px;
-    height: 1px;
-    background: black;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 40px;
-    transition: all 0.3s ease;
-  }
-  
-.ipg-ani-arrow1:hover:before {
-    right: 25px;
-    width: 45px;
-  }
-
-  /* Arrow head */
-.ipg-ani-arrow1:after {
-    border-style: solid;
-        border-width: 5px 0 5px 5px;
-        border-color: transparent transparent transparent #000000;
-        content: "";
-        height: 0;  
-        position: absolute;
-        right: 35px;
-        top: 50%;
-        transform: translateY(-50%);
-        transition: all 0.3s ease;
-        width: 0;  
-  }
-  
-.ipg-ani-arrow1:hover:after {
-    right: 20px;
-  }
-
-
 
 
 .hover:hover #hide
@@ -999,19 +909,15 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 
-.shrink.work-grid,shrink.fh5co-heading{
-    transition:all 0.6s ease-in-out;
-    
-}
 
 .hover:hover .des-project
         {
-            -webkit-transform: scale(0.95);
-            -ms-transform: scale(0.95);
-            transform: scale(0.95);
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
             transform-origin: none;
             transition:all 0.7s ease-in-out;
-            opacity: 0.7;
+            opacity: 0.9;
                 
             
             
@@ -1038,15 +944,30 @@ h1, h2, h3, h4, h5, h6, figure {
             -webkit-transform: scale(1.1);
             -ms-transform: scale(1.1);
             transform: scale(1.1);
-            transition:all 0.6s ease-in-out;
-            opacity: 1;  
+            transition:all 0.7s ease-in-out;
+            opacity: 0.9;  
         }
+
+.hover:hover.ipg-link-orange.ipg-ani-arrow1{
+    
+    
+    border-color: transparent transparent transparent #333;
+     border-style: solid;
+        border-width: 5px 0 5px 5px;
+        border-color: transparent transparent transparent #000000;
+        content: "";
+        height: 0;  
+        position: absolute;
+        right: 35px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: all 0.3s ease;
+        width: 0;  
+}
 
 
 .des-project{
     
-    
-    padding-left: 2em;
 }
 
 .hover:hover.des-project p{
@@ -1061,14 +982,13 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #333;
   font-family: 'Raleway', sans-serif, Helvetica; 
   letter-spacing: 1px; 
-    padding-top:2em;
+    padding-top:1em;
 }
 .des-project h4 {
     font-size: 20px;
-  color: #442987;
+  color: #333;
   font-weight: 400;
   letter-spacing: 1px; 
-    padding-top: 2em; 
 }
 
 .des-project h5 {
@@ -1090,7 +1010,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: 'Raleway', sans-serif, Helvetica; 
   font-weight: 100;
   letter-spacing: 1px;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .des-project p img{
@@ -1196,7 +1116,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 1px;
-  padding-top:2em;    
+  padding-top:4em; 
+  color:#000;  
+  font-family: 'Raleway', sans-serif, Helvetica;    
 }
 @media screen and (max-width: 768px) {
   .intro h2 {
@@ -1224,11 +1146,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-intro h1 {
-  font-size: 64px;
+  font-size: 56px;
   line-height: 1.1;
   font-weight: 200;
   letter-spacing: 1px;
   color: #fff;
+  transform:skewY(4deg);
 }
 .fh5co-intro h4 {
   font-size: 66px;   
@@ -1247,6 +1170,7 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 1px;
   color: #fff;
     width: 470px;
+    transform:skewY(4deg);
 }
 
 .fh5co-heading {
@@ -1276,8 +1200,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 16px;   
 }
 
-.fh5co-heading h4 {
-  padding-top: 2em;   
+.fh5co-heading h4 { 
 }
 .fh5co-heading p {
   font-size: 16px;
@@ -1370,7 +1293,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
  .work .work-grid {
-  height: 480px;
+  height: 380px;
 }
 
 @media screen and (max-width: 480px) {
@@ -1491,6 +1414,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
  .work .work-grid {
   height: 480px;
+     margin: 2em 0;
 }
  .work .work-grid.inner {
   height: 480px;
