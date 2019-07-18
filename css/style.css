@@ -49,7 +49,6 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  margin: 0 auto;
   overflow: hidden;
   position: relative; 
   background-image:linear-gradient(to left, transparent 10%, #0C2C53 90%), url("../images/steve-johnson-5Oe8KFH5998-unsplash.jpg"); 
