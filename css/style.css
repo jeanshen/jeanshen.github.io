@@ -796,19 +796,18 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .feature-center {
   float: left;
-  width: 100%;
   margin-bottom: 40px;
 }
 .feature-center .desc {
   padding-left: 180px;
 }
 .feature-center .icon {
-  width: 90px;
-  height: 90px;
-  background: #cabcab;
+  width: 60px;
+  height: 60px;
+  background: #000;
   display: table;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -817,19 +816,23 @@ h1, h2, h3, h4, h5, h6, figure {
 .feature-center .icon i {
   display: table-cell;
   vertical-align: middle;
-  height: 90px;
-  font-size: 40px;
+  height: 60px;
+  font-size: 28px;
   line-height: 40px;
   color: #fff;
 }
 .feature-center p, .feature-center h3 {
   margin-bottom: 30px;
+    font-family:  'Raleway', sans-serif, Helvetica; 
 }
+
 .feature-center h3 {
   text-transform: uppercase;
   font-size: 15px;
   letter-spacing: 1px;
   font-weight: 600;
+    font-family:   'Raleway', sans-serif, Helvetica; 
+    line-height: 1.5;
 }
 @media screen and (max-width: 768px) {
   .feature-center {
@@ -1081,9 +1084,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .top-line {
-  padding-bottom: 2em;
+  padding: 2em;
 }
-.top-line .fh5co-heading {
+ .fh5co-heading {
   margin-bottom: 0 !important;
 }
 
@@ -1244,12 +1247,19 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-content h3 {
   font-size: 20px;
-  letter-spacing: 1px; 
+  letter-spacing: 1px;
+    line-height: 1.5;
+}
+.fh5co-content h4 {
+  font-size: 18px;
+  letter-spacing: 1px;
+    line-height: 1.5;
+    color: #666;
 }
 .fh5co-content p {
   font-size: 16px;
   line-height: 2;
-  color: #333;
+  color: #666;
   font-family: 'Raleway', sans-serif, Helvetica; 
   font-weight: 100;
   letter-spacing: 1px;    
@@ -1270,8 +1280,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 16px;
   color: #333;
   padding: 0;
-  margin: 0 0 5px 0;
-  list-style: none;
+  margin: 0 0 5px 20px;
   font-family: 'Raleway', sans-serif, Helvetica;
   font-weight: 100;
   letter-spacing: 1px; 
